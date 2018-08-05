@@ -1,0 +1,40 @@
+.balance {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #EEE;
+    position: fixed;
+    left: 0;
+    top: 0.6rem;
+    z-index: 20;
+    div {
+        text-align: center;
+        display: block;
+        padding-top: 1rem;
+        p {
+            color: #777;
+            font-size: 0.24rem;
+            margin: 0;
+        }
+        i {
+            display: inline-block;
+            margin-right: 0.2rem;
+            line-height: 1rem;
+            font-size: 0.5rem;
+        }
+        span {
+            color: #000;
+            font-size: 0.8rem;
+        }
+    }
+    a {
+        position: absolute;
+        bottom: 1rem;
+        left: 1.7rem;
+        color: #23b8ff;
+        font-size: 0.24rem;
+        &:nth-of-type(2n){
+            left: 3.65rem;
+        }
+    }
+}

@@ -1,0 +1,107 @@
+/*IMPORT ANTD*/
+@import "~antd/dist/antd.css";
+
+/*REM*/
+html {
+  font-size: 100px; /*750:1REM=100PX*/
+}
+
+.item{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: .65rem;
+  line-height: .65rem;
+  text-align: center;
+  font-size: .3rem;
+  background: #FFF;
+  border-bottom:1px solid #f2f2f6;
+}
+
+.container{
+  padding:.65rem 0 .79rem 0;
+  height: 100%;
+}
+
+.footerNavBox{
+  border-top:1px solid #eeeeee;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: #ffffff;
+  
+  width: 100%;
+  height: .79rem;
+  line-height: .6rem;
+
+  display: flex;
+  a{
+    flex:1;
+    text-align: center;
+    color: #000;
+    padding:.2rem 0;
+    
+    i{
+      display: block;
+      font-size: .35rem;
+      line-height: .06rem;
+      margin-top: .08rem;
+
+    }
+
+    span{
+      font-size: .1rem;
+    }
+
+    &.active {
+      color: #23b8ff;
+      font-weight: bold;
+    }
+
+  }
+}
+
+.searchBox{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: .65rem;
+  line-height: .65rem;
+  background: #FFF;
+
+    .logo{
+      position: relative;
+      top: .1rem;
+      left: 0;
+      display: inline-block;
+      width: .4rem;
+      height: .4rem;
+      margin:0 .2rem 0 .2rem;
+      background: url("../images/logon.png");
+      background-size: 100% 100%;
+    }
+
+  .searchInput{
+    position: absolute;
+    top: 0.065rem;
+    left: .7rem;
+    width: 87%;
+    height: .5rem;
+    border: 1px solid #23b8ff;
+    border-radius:4px ;
+  }
+}
+
+.goTopBtn{
+  display: none;
+  position: fixed;
+  bottom: 1.2rem;
+  right: .5rem;
+  font-size: .6rem;
+}
+

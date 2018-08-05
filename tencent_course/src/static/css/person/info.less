@@ -1,0 +1,104 @@
+.personBaseInfo {
+    height: 10rem;
+    background: #f2f2f6;
+    header {
+        background: #FFF;
+        .userInfo {
+            height: 1.4rem;
+            line-height: 0.9rem;
+            padding: 0.3rem 0 0 0.3rem;
+            border-bottom: 1px solid #f2f2f6;
+            img {
+                float: left;
+                display: block;
+                width: 1rem;
+                height: 1rem;
+                background: #dadada;
+                border-radius: 50%;
+            }
+            div {
+                a {
+                    span {
+                        color: #555;
+                        font-weight: bold;
+                        float: left;
+                        font-size: 0.3rem;
+                        height: 1.1rem;
+                        line-height: 1.1rem;
+                        margin-left: .4rem;
+                    }
+                }
+                .anticon {
+                    font-size: 0.5rem;
+                    float: right;
+                    margin: 0.2rem 1rem 0 0;
+                }
+            }
+            .logOut {
+                display: block;
+                font-size: 0.25rem;
+                span {
+                    color: red;
+                    display: inline-block;
+                    margin-left: 0.2rem;
+                }
+            }
+
+            .hadLogin{
+                display: block;
+                font-size: 0.25rem;
+                span {
+                    color: #161616;
+                    display: inline-block;
+                    margin-left: 0.2rem;
+                }
+            }
+        }
+        .userCollect {
+            display: flex;
+            padding: .25rem;
+            div {
+                flex: 1;
+                text-align: center;
+                i {
+                    display: block;
+                    font-size: .45rem;
+                }
+                span {
+                    color: #59597e;
+                    line-height: .6rem;
+                }
+            }
+        }
+    }
+    .lists {
+        li {
+            margin-top: .13rem;
+            background: #FFF;
+            padding: 0 .5rem;
+            div {
+                height: .9rem;
+                line-height: .9rem;
+                font-size: .25rem;
+                color: #000000;
+                span:nth-of-type(2) {
+                    float: right;
+                }
+                i {
+                    float: right;
+                    height: .9rem;
+                    line-height: .9rem;
+                    margin-left: .1rem;
+                }
+                &:nth-of-type(1) {
+                    border-bottom: 1px solid #f2f2f6;
+                }
+            }
+        }
+    }
+    .exitLogin {
+        display: block;
+        width: 2rem;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,233 @@
+
+.courseDetail {
+  height: 100%;
+
+  video {
+    width: 100%;
+    height: 3.6rem;
+  }
+
+  .detailSelect {
+    display: flex;
+    width: 100%;
+    height: .7rem;
+    line-height: .7rem;
+    border-bottom: 1px solid #f2f2f6;
+    a {
+      flex: 1;
+      text-align: center;
+      color: #808080;
+
+      &.active {
+        color: #000;
+        font-size: .25rem;
+        border-bottom: .06rem solid #23b8ff;
+      }
+    }
+  }
+
+  .courseDescribe {
+    background: #efeff4;
+
+    .courseTitle {
+      background: #FFF;
+      padding: .2rem;
+
+      h2 {
+        font-size: .28rem;
+        height: .4rem;
+        overflow: hidden;
+        color: #000;
+      }
+
+      .courseEvaluate{
+        margin-bottom: .03rem;
+         span{
+           color: #777777;
+           margin-right: .3rem;
+
+         }
+       }
+
+      .courseCategory{
+        margin-bottom: .06rem;
+        span{
+          margin-right: .1rem;
+          background: #f2f2f6;
+          color: #777777;
+        }
+      }
+
+      .coursePrice{
+        font-size:.3rem;
+        color: red;
+      }
+    }
+
+    .teacherIntroduce{
+      background: #FFF;
+      margin-top: .3rem;
+      padding: .27rem;
+
+      h2{
+        font-size: .3rem;
+      }
+
+      section{
+        margin-top: 1rem;
+        border: 1px solid #d4d4d4;
+        position: relative;
+        .teacherDetail{
+          position: absolute;
+          top: -0.6rem;
+          left: 1.2rem;
+          width: 3.8rem;
+          height: 2rem;
+          background: #FFF;
+          display: flex;
+
+          div{
+            width: 1.9rem;
+
+            img{
+              width: 2rem;
+              height: 2rem;
+              border-radius:50%;
+            }
+
+            h3{
+              font-size: .3rem;
+            }
+
+            p{
+              font-size: .1rem;
+              line-height: .15rem;
+            }
+
+            &:nth-child(2){
+              padding: .2rem 0 0 .3rem;
+            }
+          }
+        }
+
+        .teacherIntroduce{
+          margin-top: 1.5rem;
+
+          p{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    .courseIntroduce{
+      background: #FFF;
+      margin-top: .3rem;
+      padding: .27rem;
+
+
+
+      h2{
+        font-size: .28rem;
+      }
+
+      div{
+        img{
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+
+    .studentReviews{
+      background: #FFF;
+      margin-top: .3rem;
+      padding: .27rem;
+
+      h2{
+        font-size: .28rem;
+
+        span{
+          float: right;
+          font-size: .2rem;
+
+          i{
+            margin-left: .1rem;
+          }
+        }
+      }
+
+      ul{
+
+        li{
+          .userName{
+            span{
+              margin: .1rem;
+            }
+
+          }
+
+          .reviewContent{
+            width: 100%;
+            font-size: .26rem;
+            float: right;
+
+          }
+
+          .reviewTime{
+            float: right;
+            color: #bbbbbb;
+          }
+        }
+      }
+    }
+  }
+
+  .signUp{
+    position: fixed;
+    bottom: .79rem;
+    left: 0;
+    height: .79rem;
+    width: 100%;
+    background: #FFF;
+    border-top:1px solid #f2f2f6;
+
+    .signUpCollect{
+      float: left;
+      height: .79rem;
+      width: .6rem;
+      text-align: center;
+      padding-top: .1rem;
+
+      i{
+        font-size: .3rem;
+
+      }
+
+      p{
+        margin: 0;
+
+      }
+    }
+
+    .signUpBtn{
+      float: right;
+      width: 2rem;
+      line-height: .79rem;
+      font-size: .25rem;
+      color: #FFF;
+      background: #23b8ff;
+      text-align: center;
+    }
+
+    .unSignUpBtn{
+      float: right;
+      width: 2rem;
+      line-height: .79rem;
+      font-size: .25rem;
+      color: #FFF;
+      background: #a1a0a6;
+      text-align: center;
+    }
+  }
+}
